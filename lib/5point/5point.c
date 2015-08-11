@@ -774,3 +774,53 @@ int compute_pose_ransac(int n, v2_t *r_pts, v2_t *l_pts,
     return max_inliers;
 }
 
+//int compute_pose_orsa(	int n, v2_t *r_pts, v2_t *l_pts,
+//						double *K1, double *K2,
+//						v2_t r_size, v2_t l_size,
+//						int ransac_rounds, double* ransac_threshold_out,
+//						double *R_out, double *t_out)
+//{
+//	v2_t *r_pts_norm, *l_pts_norm;
+//	int i, round;
+//	double thresh_norm;
+//	double K1_inv[9], K2_inv[9];
+//	int max_inliers = 0;
+//	double min_score = DBL_MAX;
+//	double E_best[9];
+//	v2_t r_best, l_best;
+//
+//	r_pts_norm = malloc(sizeof(v2_t)* n);
+//	l_pts_norm = malloc(sizeof(v2_t)* n);
+//
+//	matrix_invert(3, K1, K1_inv);
+//	matrix_invert(3, K2, K2_inv);
+//
+//	for (i = 0; i < n; i++) {
+//		double r[3] = { Vx(r_pts[i]), Vy(r_pts[i]), 1.0 };
+//		double l[3] = { Vx(l_pts[i]), Vy(l_pts[i]), 1.0 };
+//
+//		double r_norm[3], l_norm[3];
+//
+//		matrix_product331(K1_inv, r, r_norm);
+//		matrix_product331(K2_inv, l, l_norm);
+//
+//		r_pts_norm[i] = v2_new(-r_norm[0], -r_norm[1]);
+//		l_pts_norm[i] = v2_new(-l_norm[0], -l_norm[1]);
+//	}
+//
+//	/*thresh_norm = ransac_threshold * ransac_threshold;*/
+//
+//	for (round = 0; round < ransac_rounds; round++) {
+//		/* Pick 5 random points */
+//        v2_t r_pts_inner[5], l_pts_inner[5];
+//        int indices[5];
+//        int num_hyp;
+//        double E[90];
+//        int inliers_hyp[10];
+//        int first_hyp = -1, first_hyp_idx = -1, second_hyp = -1;
+//        int best = 0;
+//        int num_ident = 0;
+//        int inliers = 0;
+//	}
+//
+//}

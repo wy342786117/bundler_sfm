@@ -1,0 +1,15 @@
+﻿Build started 2015/8/11 18:47:03.
+     1>Project "D:\Projects\git\bundler_sfm\lib\5point\5point.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\include /I..\imagelib /I..\matrix /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt 5point.c
+         5point.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\Projects\git\bundler_sfm\vc++\Debug\5point.lib" /NOLOGO Debug\5point.obj
+         Debug\poly1.obj
+         Debug\poly3.obj
+         5point.vcxproj -> D:\Projects\git\bundler_sfm\vc++\Debug\5point.lib
+     1>Done Building Project "D:\Projects\git\bundler_sfm\lib\5point\5point.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.93

@@ -33,3 +33,13 @@ list_keys.txt
 list_tmp.txt
 options.txt
 sift.txt
+*.obj
+*.lastbuildstate
+*.tlog
+*.pdb
+*.idb
+*.sdf
+*.ilk
+*.exp
+lib/5point/Debug/5point.log
+lib/5point/Debug/5point.log

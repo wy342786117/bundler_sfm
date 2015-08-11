@@ -17,6 +17,7 @@
 /* TwoFrameModel.cpp */
 
 #include <float.h>
+#include <cmath>
 
 #include "TwoFrameModel.h"
 #include "ImageData.h"
@@ -399,7 +400,8 @@ ModelMap ReadModels(FILE *f, int *num_images_out)
             continue;
         }
 
-        if (std::isnan(m.m_angle) || std::isnan(m.m_error)) {
+		// Changed by Wan, Yi
+        if (::isnan(m.m_angle) || ::isnan(m.m_error)) {
             printf("[ReadModels] Error! NaNs in pair %d,%d!\n", i1, i2);
             continue;
         }

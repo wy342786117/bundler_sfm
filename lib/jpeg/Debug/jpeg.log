@@ -1,0 +1,150 @@
+﻿Build started 2015/8/11 17:27:41.
+     1>Project "D:\Projects\git\bundler_sfm\lib\jpeg\jpeg.vcxproj" on node 3 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\git\bundler_sfm\vc++\Debug\jpeg.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\git\bundler_sfm\vc++\Debug\jpeg.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\git\bundler_sfm\vc++\Debug\jpeg.lib" /MACHINE:X86 /SAFESEH /DLL Debug\jcapimin.obj
+         Debug\jcapistd.obj
+         Debug\jccoefct.obj
+         Debug\jccolor.obj
+         Debug\jcdctmgr.obj
+         Debug\jchuff.obj
+         Debug\jcinit.obj
+         Debug\jcmainct.obj
+         Debug\jcmarker.obj
+         Debug\jcmaster.obj
+         Debug\jcomapi.obj
+         Debug\jcparam.obj
+         Debug\jcphuff.obj
+         Debug\jcprepct.obj
+         Debug\jcsample.obj
+         Debug\jctrans.obj
+         Debug\jdapimin.obj
+         Debug\jdapistd.obj
+         Debug\jdatadst.obj
+         Debug\jdatasrc.obj
+         Debug\jdcoefct.obj
+         Debug\jdcolor.obj
+         Debug\jddctmgr.obj
+         Debug\jdhuff.obj
+         Debug\jdinput.obj
+         Debug\jdmainct.obj
+         Debug\jdmarker.obj
+         Debug\jdmaster.obj
+         Debug\jdmerge.obj
+         Debug\jdphuff.obj
+         Debug\jdpostct.obj
+         Debug\jdsample.obj
+         Debug\jdtrans.obj
+         Debug\jerror.obj
+         Debug\jfdctflt.obj
+         Debug\jfdctfst.obj
+         Debug\jfdctint.obj
+         Debug\jidctflt.obj
+         Debug\jidctfst.obj
+         Debug\jidctint.obj
+         Debug\jidctred.obj
+         Debug\jmemmgr.obj
+         Debug\jmemnobs.obj
+         Debug\jquant1.obj
+         Debug\jquant2.obj
+         Debug\jutils.obj
+     1>jcapimin.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library D:\Projects\git\bundler_sfm\vc++\Debug\jpeg.lib and object D:\Projects\git\bundler_sfm\vc++\Debug\jpeg.exp
+     1>jcapimin.obj : warning LNK4217: locally defined symbol _jpeg_abort imported in function _jpeg_abort_compress
+     1>jdapimin.obj : warning LNK4217: locally defined symbol _jpeg_abort imported in function _jpeg_destroy_decompress
+     1>jcapimin.obj : warning LNK4217: locally defined symbol _jpeg_destroy imported in function _jpeg_destroy_compress
+     1>jdapimin.obj : warning LNK4217: locally defined symbol _jpeg_destroy imported in function _jpeg_CreateDecompress
+     1>jerror.obj : warning LNK4049: locally defined symbol _jpeg_destroy imported
+     1>jcapimin.obj : warning LNK4217: locally defined symbol _jinit_marker_writer imported in function _jpeg_write_tables
+     1>jcinit.obj : warning LNK4049: locally defined symbol _jinit_marker_writer imported
+     1>jctrans.obj : warning LNK4217: locally defined symbol _jinit_marker_writer imported in function _compress_output
+     1>jcapimin.obj : warning LNK4217: locally defined symbol _jinit_memory_mgr imported in function _jpeg_CreateCompress
+     1>jdapimin.obj : warning LNK4217: locally defined symbol _jinit_memory_mgr imported in function _jpeg_CreateDecompress
+     1>jcapistd.obj : warning LNK4217: locally defined symbol _jpeg_suppress_tables imported in function _jpeg_start_compress
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jpeg_suppress_tables imported
+     1>jcapistd.obj : warning LNK4217: locally defined symbol _jinit_compress_master imported in function _jpeg_start_compress
+     1>jccoefct.obj : warning LNK4217: locally defined symbol _jround_up imported in function _jinit_c_coef_controller
+     1>jdcoefct.obj : warning LNK4049: locally defined symbol _jround_up imported
+     1>jdpostct.obj : warning LNK4217: locally defined symbol _jround_up imported in function _jinit_d_post_controller
+     1>jdsample.obj : warning LNK4049: locally defined symbol _jround_up imported
+     1>jquant1.obj : warning LNK4049: locally defined symbol _jzero_far imported
+     1>jquant2.obj : warning LNK4049: locally defined symbol _jzero_far imported
+     1>jccoefct.obj : warning LNK4217: locally defined symbol _jzero_far imported in function _compress_data
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jzero_far imported
+     1>jdcoefct.obj : warning LNK4049: locally defined symbol _jzero_far imported
+     1>jmemmgr.obj : warning LNK4049: locally defined symbol _jzero_far imported
+     1>jcdctmgr.obj : warning LNK4217: locally defined symbol _jpeg_fdct_islow imported in function _jinit_forward_dct
+     1>jcdctmgr.obj : warning LNK4217: locally defined symbol _jpeg_fdct_ifast imported in function _jinit_forward_dct
+     1>jcdctmgr.obj : warning LNK4217: locally defined symbol _jpeg_fdct_float imported in function _jinit_forward_dct
+     1>jchuff.obj : warning LNK4217: locally defined symbol _jpeg_alloc_huff_table imported in function _finish_pass_gather
+     1>jcparam.obj : warning LNK4049: locally defined symbol _jpeg_alloc_huff_table imported
+     1>jcphuff.obj : warning LNK4049: locally defined symbol _jpeg_alloc_huff_table imported
+     1>jdmarker.obj : warning LNK4049: locally defined symbol _jpeg_alloc_huff_table imported
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_c_master_control imported in function _jinit_compress_master
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jinit_c_master_control imported
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_c_main_controller imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_c_prep_controller imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_c_coef_controller imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_color_converter imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_downsampler imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_forward_dct imported in function _jinit_compress_master
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_huff_encoder imported in function _jinit_compress_master
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jinit_huff_encoder imported
+     1>jcinit.obj : warning LNK4217: locally defined symbol _jinit_phuff_encoder imported in function _jinit_compress_master
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jinit_phuff_encoder imported
+     1>jcmaster.obj : warning LNK4217: locally defined symbol _jdiv_round_up imported in function _initial_setup
+     1>jdinput.obj : warning LNK4217: locally defined symbol _jdiv_round_up imported in function _initial_setup
+     1>jdmaster.obj : warning LNK4049: locally defined symbol _jdiv_round_up imported
+     1>jcparam.obj : warning LNK4217: locally defined symbol _jpeg_alloc_quant_table imported in function _jpeg_add_quant_table
+     1>jctrans.obj : warning LNK4049: locally defined symbol _jpeg_alloc_quant_table imported
+     1>jdmarker.obj : warning LNK4049: locally defined symbol _jpeg_alloc_quant_table imported
+     1>jcphuff.obj : warning LNK4217: locally defined symbol _jpeg_make_c_derived_tbl imported in function _start_pass_phuff
+     1>jcphuff.obj : warning LNK4217: locally defined symbol _jpeg_gen_optimal_table imported in function _finish_pass_gather_phuff
+     1>jdsample.obj : warning LNK4049: locally defined symbol _jcopy_sample_rows imported
+     1>jcprepct.obj : warning LNK4217: locally defined symbol _jcopy_sample_rows imported in function _expand_bottom_edge
+     1>jcsample.obj : warning LNK4049: locally defined symbol _jcopy_sample_rows imported
+     1>jdcolor.obj : warning LNK4049: locally defined symbol _jcopy_sample_rows imported
+     1>jdmerge.obj : warning LNK4049: locally defined symbol _jcopy_sample_rows imported
+     1>jctrans.obj : warning LNK4217: locally defined symbol _jpeg_set_defaults imported in function _jpeg_copy_critical_parameters
+     1>jctrans.obj : warning LNK4217: locally defined symbol _jpeg_set_colorspace imported in function _jpeg_copy_critical_parameters
+     1>jdapimin.obj : warning LNK4217: locally defined symbol _jinit_input_controller imported in function _jpeg_CreateDecompress
+     1>jdapimin.obj : warning LNK4217: locally defined symbol _jinit_marker_reader imported in function _jpeg_CreateDecompress
+     1>jdapistd.obj : warning LNK4217: locally defined symbol _jinit_master_decompress imported in function _jpeg_start_decompress
+     1>jdatasrc.obj : warning LNK4217: locally defined symbol _jpeg_resync_to_restart imported in function _jpeg_stdio_src
+     1>jdcoefct.obj : warning LNK4217: locally defined symbol _jcopy_block_row imported in function _decompress_smooth_data
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_islow imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_ifast imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_float imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_4x4 imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_2x2 imported in function _start_pass
+     1>jddctmgr.obj : warning LNK4217: locally defined symbol _jpeg_idct_1x1 imported in function _start_pass
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_d_main_controller imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_d_coef_controller imported in function _master_selection
+     1>jdtrans.obj : warning LNK4049: locally defined symbol _jinit_d_coef_controller imported
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_d_post_controller imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_huff_decoder imported in function _master_selection
+     1>jdtrans.obj : warning LNK4049: locally defined symbol _jinit_huff_decoder imported
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_phuff_decoder imported in function _master_selection
+     1>jdtrans.obj : warning LNK4049: locally defined symbol _jinit_phuff_decoder imported
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_inverse_dct imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_upsampler imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_color_deconverter imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_1pass_quantizer imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_2pass_quantizer imported in function _master_selection
+     1>jdmaster.obj : warning LNK4217: locally defined symbol _jinit_merged_upsampler imported in function _master_selection
+     1>jdphuff.obj : warning LNK4217: locally defined symbol _jpeg_make_d_derived_tbl imported in function _start_pass_phuff_decoder
+     1>jdphuff.obj : warning LNK4217: locally defined symbol _jpeg_fill_bit_buffer imported in function _decode_mcu_AC_first
+     1>jdphuff.obj : warning LNK4217: locally defined symbol _jpeg_huff_decode imported in function _decode_mcu_AC_first
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_get_small imported in function _alloc_small
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_free_small imported in function _free_pool
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_get_large imported in function _alloc_large
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_free_large imported in function _free_pool
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_mem_available imported in function _realize_virt_arrays
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_open_backing_store imported in function _realize_virt_arrays
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_mem_init imported in function _jinit_memory_mgr
+     1>jmemmgr.obj : warning LNK4217: locally defined symbol _jpeg_mem_term imported in function _jinit_memory_mgr
+         jpeg.vcxproj -> D:\Projects\git\bundler_sfm\vc++\Debug\jpeg.dll
+     1>Done Building Project "D:\Projects\git\bundler_sfm\lib\jpeg\jpeg.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.54

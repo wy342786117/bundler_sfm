@@ -1,0 +1,9 @@
+﻿Build started 2015/8/11 17:27:40.
+     1>Project "D:\Projects\git\bundler_sfm\lib\ann_1.1_char\ann_1.1_char.vcxproj" on node 3 (Build target(s)).
+     1>Link:
+         ann_1.1_char.vcxproj -> D:\Projects\git\bundler_sfm\vc++\Debug\ann_1.1_char.dll
+     1>Done Building Project "D:\Projects\git\bundler_sfm\lib\ann_1.1_char\ann_1.1_char.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09

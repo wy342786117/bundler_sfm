@@ -347,8 +347,9 @@ BundlerApp::BundleAdjustAddAllNewPoints(int num_points, int num_cameras,
             pt = GeneratePointAtInfinity(new_tracks[i], added_order, cameras, 
                                          error, true);
         }
-        
-	if (std::isnan(error) || error > max_reprojection_error) {
+       
+		// Changed by Wan, Yi
+	if (::isnan(error) || error > max_reprojection_error) {
 	    num_high_reprojection++;
 #if 0
 	    printf(">> Reprojection error [%0.3f] is too large\n", error);

@@ -1,0 +1,9 @@
+﻿Build started 2015/8/11 17:52:24.
+     1>Project "D:\Projects\git\bundler_sfm\lib\cblas\cblas.vcxproj" on node 4 (Build target(s)).
+     1>Lib:
+         cblas.vcxproj -> D:\Projects\git\bundler_sfm\vc++\Debug\cblas.lib
+     1>Done Building Project "D:\Projects\git\bundler_sfm\lib\cblas\cblas.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.05

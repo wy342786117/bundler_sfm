@@ -189,6 +189,23 @@ void ReadBundleFile(char *bundle_file,
     fclose(f);
 }
 
+char* index(char* s, char c)
+{
+	unsigned long ind = 0;
+	bool found = false;
+	while (s[ind] != 0){
+		if (s[ind] == c){
+			found = true;
+			break;
+		}
+		ind++;
+	}
+	if (found)
+		return (s + ind);
+	else
+		return 0;
+}
+
 void ReadListFile(char *list_file, std::vector<std::string> &files)
 {
     FILE *f = fopen(list_file, "r");

@@ -31,6 +31,12 @@ int compute_pose_ransac(int n, v2_t *r_pts, v2_t *l_pts,
                         double ransac_threshold, int ransac_rounds, 
                         double *R_out, double *t_out);
 
+int compute_pose_orsa(	int n, v2_t *r_pts, v2_t *l_pts,
+						double *K1, double *K2,
+						v2_t r_size, v2_t l_size,
+						double ransac_threshold, int ransac_rounds,
+						double *R_out, double *t_out);
+
 #ifdef __cplusplus
 }
 #endif
